@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/xapzx/faq-accordian-card]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://xapzx.github.io/faq-accordian-card/]
 
 ## My process
 

@@ -11,7 +11,6 @@
 
     /* Neutral */
     /* Text */
-
     --clr-neutral-very-dark-blue: hsl(237, 12%, 33%);
     --clr-neutral-dark-blue: hsl(240, 6%, 50%);
 
@@ -23,4 +22,19 @@
     --ff-base: 'Kumbh Sans', sans-serif;
     --fw-regular: 400;
     --fw-bold: 700;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(var(--clr-primary-soft-violet), var(--clr-primary-soft-blue));
+    font-size: var(--fs-body);
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    display: grid;
+    place-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

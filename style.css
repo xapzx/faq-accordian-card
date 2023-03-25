@@ -1,0 +1,26 @@
+:root {
+    /* Primary */
+    /* Text */
+    --clr-primary-blue: hsl(238, 29%, 16%);
+    --clr-primary-soft-red: hsl(14, 88%, 65%);
+
+    /* Gradient */
+    /* Background gradient: */
+    --clr-primary-soft-violet: hsl(273, 75%, 66%);
+    --clr-primary-soft-blue: hsl(240, 73%, 65%);
+
+    /* Neutral */
+    /* Text */
+
+    --clr-neutral-very-dark-blue: hsl(237, 12%, 33%);
+    --clr-neutral-dark-blue: hsl(240, 6%, 50%);
+
+    /* Dividers */
+    --clr-divider-blue: hsl(240, 5%, 91%);
+
+    /* Font */
+    --fs-body: 0.75rem;
+    --ff-base: 'Kumbh Sans', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}

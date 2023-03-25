@@ -40,7 +40,7 @@ main {
     grid-template-rows: auto 1fr;
     background-color: #fff;
     border-radius: 16px;
-    min-width: 330px;
+    width: 330px;
 }
 
 .product-img {
@@ -59,4 +59,49 @@ main {
     top: -105px;
     min-width: 230px;
     width: 230px;
+}
+
+.faq {
+    padding: 0 1.5rem 3rem 1.5rem;
+}
+
+.faq > h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.question {
+    border-bottom: 1px solid var(--clr-divider-blue);
+    padding: 1rem 0;
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: var(--clr-neutral-very-dark-blue);
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.open {
+    transform: rotate(180deg);
+}
+
+.panel {
+    padding-top: 0.5rem;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    color: var(--clr-neutral-dark-blue);
+}
+
+.active {
+    font-weight: var(--fw-bold);
 }

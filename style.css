@@ -32,9 +32,31 @@ body {
     font-weight: var(--fw-regular);
     display: grid;
     place-content: center;
+    padding: 9rem 1.5rem;
 }
 
 main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    background-color: #fff;
+    border-radius: 16px;
+    min-width: 330px;
+}
+
+.product-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+    background: url(images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+}
+
+.product-img > img {
+    position: absolute;
+    top: -105px;
+    min-width: 230px;
+    width: 230px;
 }

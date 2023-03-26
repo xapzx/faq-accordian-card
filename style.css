@@ -54,9 +54,10 @@ main {
     height: 100%;
 }
 
-.product-img > img {
+.img-1 {
     position: absolute;
     top: -105px;
+    left: 50px;
     min-width: 230px;
     width: 230px;
 }
@@ -78,11 +79,19 @@ main {
         background-repeat: no-repeat;
         background-size: 200%;
         background-position: bottom -7rem left -33rem;
-        overflow: hidden;
+        
         width: 450px;
     }
 
-    .product-img > img {
+    .overflow-wrap {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .img-2 {
+        display: block;
+        position: relative;
         width: 500px;
         top: 5rem;
         left: -18%;
@@ -92,8 +101,12 @@ main {
         display: none;
     }
 
-    .img-2 {
-        display: block;
+    img.box {
+        position: absolute;
+        min-width: unset;
+        width: 10rem;
+        top: 13.75rem;
+        left: -5rem;
     }
 }
 

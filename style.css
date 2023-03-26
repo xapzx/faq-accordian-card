@@ -57,8 +57,48 @@ main {
 .product-img > img {
     position: absolute;
     top: -105px;
-    min-width: 230px;
+    /* min-width: 230px; */
     width: 230px;
+}
+
+.img-2 {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    body {
+        /* padding: unset; */
+    }
+
+    main {
+        grid-template-rows: unset;
+        grid-template-columns: repeat(2, 1fr);
+        min-width: 925px;
+        height: 510px;
+    }
+
+    .product-img {
+        background: url(images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 200%;
+        background-position: bottom -7rem left -33rem;
+        overflow: hidden;
+        width: 450px;
+    }
+
+    .product-img > img {
+        width: 500px;
+        top: 5rem;
+        left: -18%;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .img-2 {
+        display: block;
+    }
 }
 
 .faq {
@@ -88,6 +128,16 @@ main {
     width: 100%;
     text-align: left;
     font-size: 0.8rem;
+}
+
+@media (min-width: 800px) {
+    .faq {
+        padding: 4rem 5rem 3rem 0;
+    }
+
+    .faq > h1 {
+        text-align: left;
+    }
 }
 
 .open {
